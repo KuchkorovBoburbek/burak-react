@@ -5,6 +5,7 @@ import NewDishes from "./NewDishes";
 import Advertaisment from "./Advertaisment";
 import ActiveUser from "./ActiveUser";
 import Events from "./Events";
+import "../../../css/home.css";
 
 function homePage() {
   return (

@@ -12,6 +12,7 @@ import Footer from "./components/footer";
 import "../css/navbar.css";
 import "../css/footer.css";
 import "../css/app.css";
+
 import HelpPage from "./screens/helpPage";
 
 export default function App() {
