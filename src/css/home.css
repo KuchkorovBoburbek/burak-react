@@ -92,6 +92,20 @@
     linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0) 200px),
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 300px);
 }
+.homepage .popular-dishes-frame  .no-data {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-style: 30px;
+  line-height: 34px;
+  color: #e3c08d;
+}
 
 /** NEW PRODUCTS **/
 
@@ -137,7 +151,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 4px, 6px, 20px, rgba(0, 0, 0, 0.1);
- font-family: "Roboto Serif";
+  font-family: "Roboto Serif";
   border-radius: 25px;
   background: #f19737;
   font-style: normal;
@@ -173,13 +187,28 @@
   width: 20px;
   font-weight: 500;
 }
-.homepage .new-products-frame .product-detail .divider{
+.homepage .new-products-frame .product-detail .divider {
   margin: 0px 10px 0px 10px;
   width: 2px;
   background-color: #d9d9d9;
 }
-.homepage .new-products-frame .product-detail .views{
+.homepage .new-products-frame .product-detail .views {
   display: flex;
   align-items: center;
   font-weight: 500;
+}
+
+.homepage .new-products-frame .no-data {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-style: 30px;
+  line-height: 34px;
+  color: #e3c08d;
 }

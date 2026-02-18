@@ -23,7 +23,7 @@ function PopularDishes() {
         <Stack className="popular-section">
           <Box className="cotegory-title">Popular Dishes</Box>
           <Stack className="cards-frame">
-            {list.map((ele, index) => {
+            {list.length !==0 ? list.map((ele, index) => {
               return (
                 <CssVarsProvider key={index}>
                   <Card className="card">
@@ -79,7 +79,9 @@ function PopularDishes() {
                   </Card>
                 </CssVarsProvider>
               );
-            })}
+            }): (
+               <Box className="no-data">Popular dishes are not avaible</Box>
+            )}
           </Stack>
         </Stack>
       </Container>
